@@ -22,11 +22,11 @@ func replaceBlank(replaceBytes []byte) {
 	newIndex := len(replaceBytes) - 1
 	for i := bytesLen - 1; i >= 0 ; i-- {
 		if replaceBytes[i] == ' ' {
-			replaceBytes[newIndex] = 51
+			replaceBytes[newIndex] = 'B'
 			newIndex--
-			replaceBytes[newIndex] = 50
+			replaceBytes[newIndex] = '2'
 			newIndex--
-			replaceBytes[newIndex] = 37
+			replaceBytes[newIndex] = '%'
 			newIndex--
 
 			continue
