@@ -21,3 +21,7 @@ func NewLinkedList(arr []int) *ListNode {
 
 	return head
 }
+
+func ()  {
+	
+}
